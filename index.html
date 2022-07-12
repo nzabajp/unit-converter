@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css" />
+        <title>Unit Converter</title>
+    </head>
+    <body>
+        <div >
+            <div class="coverter-container">
+                <h1>Metric/Imperial Unit Coversion</h1>
+                <input id="input" type="number" value="20" min="1"/>
+                <button onclick="toggleClick()">Convert</button>
+            </div>
+            <div class="container-section">
+                <div>
+                    <h3>Length (Meter/Feet)</h3>
+                    <p id="length"></p>
+                </div>
+                <div>
+                    <h3>Volume (Liters/Gallons)</h3>
+                    <p id="volume"></p>
+                </div>
+                <div>
+                    <h3>Mass (Kilograms/Pounds)</h3>
+                    <p id="mass"></p>
+                </div>
+            </div>
+        </div>
+        <p class="footer">Made with 🤍 by <a href="https://github.com/nzabajp" target="_blank">/nzabajp</a></p>
+        <script src="index.js"></script>
+    </body>
+</html>
